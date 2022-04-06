@@ -10,21 +10,30 @@ html, body {
     justify-content: center;
     align-items: center;
     z-index: 1;
-    background-color: #dfdddd;
+    background: linear-gradient(#2AAF2D, #019000);
 }
 .desc {
-    margin-top: -10px;
+    margin-top: -40px;
     text-align: center;
+    color: white;
+    font-family: 'Mirza';
+    font-weight: 400;
+    font-size: 20px;
 }
 span {
     margin-bottom: 20px;
-    background-color: green;
+    background-color: #008300;
     padding: 10px 20px;
     color: white;
     border-radius: 10px;
+    font-family: 'Mirza';
+    font-weight: 400;
 }
-h1, p {
-    color: #2b2b2b;
+h1 {
+    font-family: 'Mirza';
+    font-weight: 700;
+    font-size: 50px;
+    color: white;
 }
 .ketupat {
     animation-name: kupat;
@@ -34,11 +43,11 @@ h1, p {
     animation-timing-function: ease-in-out;
 }
 audio {
-    width: 100%;
-    position: fixed;
-    bottom: 0;
+    display: none;
 }
-
+#demo {
+    margin-top: -10px;
+}
 @keyframes kupat {
     0% {
         transform: rotate(-7deg);
