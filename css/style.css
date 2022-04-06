@@ -51,8 +51,10 @@ audio {
 @keyframes kupat {
     0% {
         transform: rotate(-7deg);
+        opacity: 0;
     }
     100% {
         transform: rotate(7deg);
+        opacity: 1;
     }
 }
